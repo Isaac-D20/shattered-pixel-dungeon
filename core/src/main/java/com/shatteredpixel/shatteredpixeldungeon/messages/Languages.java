@@ -25,6 +25,7 @@ import java.util.Locale;
 
 public enum Languages {
 	ENGLISH("english",      "",   Status.REVIEWED,   null, null),
+	HEBREW("עברית",      "he",   Status.UNREVIEWED,   null, null),
 	RUSSIAN("русский",      "ru", Status.UNREVIEWED,   new String[]{"ConsideredHamster", "Inevielle", "apxwn", "yarikonline" }, new String[]{"AttHawk46", "BlueberryShortcake", "HerrGotlieb", "HoloTheWise", "Ilbko", "JleHuBbluKoT", "KirStaLong", "MrXantar", "Nikets", "Originalej0name", "Raymundo", "Shamahan", "Thomasg63", "Ya6lo4ko", "kirusyaga", "perefrazz", "roman.yagodin", "un_logic", "Вoвa"}),
 	SPANISH("español",      "es", Status.REVIEWED,   new String[]{"KeyKai", "Kiroto", "Kohru", "airman12", "grayscales"}, new String[]{"AdventurerKilly", "Alesxanderk", "CorvosUtopy", "D0n.Kak0", "Dewstend", "Dyrran", "Enddox", "Fervoreking", "Illyatwo2", "JPCHZ", "LastCry", "Marquezo_577_284", "NAVI1237", "STKmonoqui", "Sh4rkill3r", "alfongad", "benzarr410", "chepe567.jc", "ctrijueque", "damc0616", "desen90", "dhg121", "javifs", "jonismack1", "magmax", "tres.14159"}),
 	KOREAN("한국어",         "ko", Status.UNREVIEWED, new String[]{"Cocoa", "Flameblast12", "GameConqueror", "Korean2017"}, new String[]{"N8fall", "WondarRabb1t", "chlrhwnstkd", "ddojin0115", "eeeei", "enjuxx", "hancyel", "linterpreteur", "lsiebnie"}),
